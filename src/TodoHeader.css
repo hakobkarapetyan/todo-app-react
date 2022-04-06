@@ -1,0 +1,23 @@
+form.addTodo {
+    display: flex;
+    gap: 5px;
+}
+
+form.addTodo input[name="addTodo"] {
+    flex-basis: 90%;
+    padding: 16px 12px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+}
+
+form button[type="submit"] {
+    flex-basis: 10%;
+    border: none;
+    padding: 16px 36px;
+    cursor: pointer;
+    background-color: #ff0066;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}

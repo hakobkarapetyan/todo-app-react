@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.App {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 40px;
+    background-color: #474747;
+}

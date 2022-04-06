@@ -1,0 +1,26 @@
+li.todoItem {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.todoItem label {
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+}
+
+li.todoItem label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+li.todoItem a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}

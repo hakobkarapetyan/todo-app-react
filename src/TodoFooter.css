@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .copletedCount {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer button.clearCompleted {
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    background-color: #ff0066;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
